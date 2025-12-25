@@ -1,4 +1,5 @@
 # TP_0_ICT301_GUIFFO-TATCHIM_JORESSE-
+GUIFFO TATCHIM JORESSE ERWANE 25G2037
 Les principes SOLID sont un ensemble de bonnes pratiques de conception orientée objet visant à rendre le code plus maintenable, flexible et évolutif.
 Le terme SOLID est un acronyme correspondant à cinq principes essentiels :
 1. S - Single Responsibility Principle (SRP)

@@ -1,0 +1,69 @@
+import java.awt.Shape;
+
+public class Geometry
+{
+    void area(Shape shape){
+        if(shape instanceof Circle){
+           //calculate for circle
+        }
+        else if(shape instanceof Square){//calculate for square}
+   }
+ }
+     void perimeter(Shape shape){
+        if(shape instanceof Circle){
+           //calculate for circle
+        }
+        else if(shape instanceof Square){//calculate for square}
+   }
+ }
+} 
+public class Circle
+{
+    // variables d'instance - remplacez l'exemple qui suit par le vôtre
+    private int x;
+
+    public Circle()
+    {
+        // initialisation des variables d'instance
+        x = 0;
+    }
+}
+public class Square
+{
+    public Square()
+    {
+        
+    }
+}
+###REFACTORING###
+public class Square
+{
+    public Square()
+    {
+        
+    }
+}
+public class Circle
+{
+    public Circle()
+    {
+       
+    }
+}
+public class Geometry
+{
+    private Shape shape;
+    void area(){
+      shape.subArea();
+    }
+    void perimeter(){
+      shape.subPerimeter();
+    }
+}
+public class rectangle
+{
+    public rectangle()
+    {
+       
+    }
+}   

@@ -1,0 +1,36 @@
+import java.util.Date;
+
+public class Person
+{
+  private String name;
+  private String firstName;
+  private Date birthDate;
+  private String jobDescription;
+  private boolean isGoodSalary;
+  
+  String getname(){return name;}
+  String getfirstName(){return firstName;}
+  Date getbirthDate(){return birthDate;}
+  String getjobDescription(){return jobDescription;}
+  boolean hasGoodSalary(){return isGoodSalary;}
+}
+####REFACTORING
+
+public class Job
+{
+  private String jobDescription;
+  private int salary;
+  
+  String getjobDescription(){return jobDescription;}
+  boolean hasGoodSalary(){return true;}
+}
+public class Person_refac
+{
+  private String name;
+  private String firstName;
+  private Date birthDate;
+  
+  String getname(){return name;}
+  String getfirstName(){return firstName;}
+  Date getbirthDate(){return birthDate;}
+}

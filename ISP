@@ -1,0 +1,12 @@
+public class A
+{
+    boolean c1,c2;
+    private void foo(){
+       if(c1){}
+       if(c2){}
+    }
+    private void bar(){
+       if(c1){}
+       if(c2){}
+    }
+}

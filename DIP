@@ -1,0 +1,36 @@
+public class ConsoleLogger extends Logger
+{
+    public void log(String msg){
+       System.out.println(msg);
+    }
+}
+public class Logger
+{
+  public void log(String msg){
+     System.out.println(msg);
+    }
+}
+public interface Loggers
+{
+   void log(String msg);
+}
+public class SomeService
+{
+   private Logger logger;
+   public SomeService(){
+      this.logger = new Logger();
+    }
+   public void someMethod(){
+      this.logger.log("Hi");
+    }
+}
+public class SomeServices
+{
+    private Logger logger;
+    public SomeServices(Logger logger){
+       this.logger = logger;
+    }
+    public void someMethod(){
+       this.logger.log("Hi");
+    }
+}

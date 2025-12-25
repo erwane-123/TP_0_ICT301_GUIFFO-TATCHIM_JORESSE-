@@ -1,0 +1,27 @@
+public class AnonymousUser extends User
+{
+    public String getEmailAddress(){
+       throw new RuntimeException("Anonymous users don't have an email address."); 
+    }
+}
+public class User
+{
+    private String emailAddress;
+    public String getEmailAddress(){
+       return this.emailAddress;
+    }
+}
+REFACTORING
+public class AnonymousUsers extends Users
+{
+    
+}
+public class RegisteredUser extends Users
+{
+    private String emailAddress;
+    public String getEmailAddress(){return this.emailAddress;}
+}
+public abstract class Users
+{
+    
+}
